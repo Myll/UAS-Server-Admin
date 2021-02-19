@@ -1,0 +1,7 @@
+
+FROM mysql
+
+
+COPY Trucorp-db.sql /docker-entrypoint-initdb.d/
+
+EXPOSE 3306
